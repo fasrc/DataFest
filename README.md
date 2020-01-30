@@ -49,7 +49,7 @@ We will test t-SNE GPU implementation by Nvidia (RAPIDS). The installation by co
 conda install -c rapidsai -c nvidia -c conda-forge -c defaults rapids=0.11 python=3.7
 ```
 
-Feel free to change the above command if you are using a different version of Python or CUDA version.
+Feel free to change the above command if you are using a different version of Python or CUDA version. Check the [RAPIDS start page](https://rapids.ai/start.html) to find out about the prerequisites. The supported operating systems for RAPIDS are `Ubuntu 16.04/18.04 or CentOS 7 with gcc 5.4 & 7.3`.
 
 For parallel CPU implementation of t-SNE technique, we will test the [MulticoreTSNE](https://github.com/DmitryUlyanov/Multicore-TSNE) package. We can install it by the following `pip` command,
 
